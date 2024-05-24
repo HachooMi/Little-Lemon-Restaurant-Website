@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&display=swap');
+#title {
+    font-family: 'Markazi Text', serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.image-container {
+    position: relative; 
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
+    margin-bottom: 700px;
+    font-family: 'Karla', serif;
+    font-size: 15px;
+}
+
+.Occasion-Menu {
+    position: fixed;
+    top: 28%;
+    left: 25%;
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+.Time-Menu {
+    position: fixed;
+    top: 28%;
+    left: 42.3%; 
+    transform: translateX(-50%); 
+    display: grid;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 0px; 
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+
+.Birthday-Images {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.Label-Images {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.Time-Images {
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.Diners-Menu {
+    position: fixed;
+    top: 47.5%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; 
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.Diners-Images {
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+.Date {
+    position: fixed;
+    top: 30%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px; 
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+
+}
+
+#Selected-Occasion {
+    position: fixed;
+    top: 28%;
+    left: 25%; 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+
+}
+
+#Selected-Time {
+    position: fixed;
+    top: 28%;
+    left: 42%; 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+#Number-Diners {
+    position: fixed;
+    top: 28%;
+    left: 58%; 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+#Selected-Date {
+    position: fixed;
+    top: 28%;
+    left: 75%; 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+#first-name-label {
+    font-size: 18px;
+    position: fixed;
+    top: 75%;
+    left: 21%; 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+}
+
+#first-name {
+    margin-top: 10px;
+    position: fixed;
+    top: 78%;
+    left: 24.5%; 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+#last-name-label {
+    font-size: 18px;
+    position: fixed;
+    top: 75%;
+    left: 40%; 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+}
+
+#last-name {
+    margin-top: 10px;
+    position: fixed;
+    top: 78%;
+    left: 43.75%; 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+#email-label {
+    font-size: 18px;
+    position: fixed;
+    top: 75%;
+    left: 58.5%; 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+}
+
+#email {
+    margin-top: 10px;
+    position: fixed;
+    top: 78%;
+    left: 62.5%; 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 200px;
+}
+
+#phone-number {
+    margin-top: 10px;
+    position: fixed;
+    top: 78%;
+    left: 82.5%; 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+#phone-number-label {
+    font-size: 18px;
+    position: fixed;
+    top: 75%;
+    left: 80%; 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+}
+
+#submit {
+    margin-top: 10px;
+    position: fixed;
+    top: 88%;
+    left: 52%; 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.confirmation-msg {
+    margin-top: 10px;
+    position: fixed;
+    line-height: 22px;
+    top: 37%;
+    left: 52%; 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.error-message {
+    margin-top: 10px;
+    position: fixed;
+    top: 48%;
+    color: red;
+    left: 52%; 
+    transform: translateX(-50%); 
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .image-container {
+        margin-bottom: 1400px;
+        margin-left: -20vw;
+    }
+
+    #title {
+        font-size: 30px;
+        margin-right: 100px;
+    }
+    #Selected-Occasion {
+        position: fixed;
+        margin-left: -20vw;
+        top: 15%;
+        left: 20%;
+        }
+    #Selected-Time {
+        position: fixed;
+        margin-left: -20vw;
+        top: 25%;
+        left: 20%;
+        }
+    #Number-Diners {
+        position: fixed;
+        margin-left: -20vw;
+        top: 38%;
+        left: 20%;
+        }
+    #Selected-Date {
+        position: fixed;
+        margin-left: -20vw;
+        top: 50%;
+        left: 20%;
+        }
+    .Label-Images {
+        margin-left: 15px;
+        width: 300px;
+        height: 70px;
+        padding: 85px;
+    }
+    .Occasion-Menu {
+        position: fixed;
+        top: 13.5%;
+        left: 20%;
+        margin-left: -60px;
+    }
+    .Time-Menu {
+        position: fixed;
+        top: 25%;
+        left: 20%;
+        margin-left: -60px;
+    }
+    .Diners-Menu {
+        position: fixed;
+        top: 42%;
+        left: 20%;
+        margin-left: -70px;
+    }
+    .Date {
+        position: fixed;
+        top: 48%;
+        left: 20%;
+        margin-left: -60px;
+    }
+    #first-name-label {
+        position: fixed;
+        top: 56%;
+        left: 20%;
+        margin-left: -70px;    
+    }
+    #first-name {
+        position: fixed;
+        top: 58%;
+        left: 20%;
+        margin-left: -70px;   
+    }
+    #last-name-label {
+        position: fixed;
+        top: 63%;
+        left: 20%;
+        margin-left: -70px;   
+    }
+    #last-name {
+        position: fixed;
+        top: 65%;
+        left: 20%;
+        margin-left: -70px;   
+    }
+    #email-label {
+        position: fixed;
+        top: 70%;
+        left: 20%;
+        margin-left: -70px;   
+    }
+    #email {
+        position: fixed;
+        top: 72%;
+        left: 20%;
+        margin-left: -70px;   
+    }
+    #phone-number-label {
+        position: fixed;
+        top: 77%;
+        left: 20%;
+        margin-left: -70px;   
+    }
+    #phone-number {
+        position: fixed;
+        top: 79%;
+        left: 20%;
+        margin-left: -70px;   
+    }
+    
+    #submit {
+        position: fixed;
+        top: 85%;
+        left: 20%;
+        margin-left: -70px;   
+    }
+
+    .error-message {
+        position: fixed;
+        top: 90%;
+        left: 20%;
+        margin-left: -70px;   
+    }
+
+    .confirmation-msg {
+        position: fixed;
+        top: 87.5%;
+        left: 19.7%;
+        margin-left: -70px; 
+        width: 250px;
+    }
+}
+
+
+
+
+

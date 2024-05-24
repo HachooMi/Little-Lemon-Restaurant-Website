@@ -1,0 +1,140 @@
+.group-455 {
+    display: flex; /* Make it flex container */
+    justify-content: center; /* Center its children horizontally */
+    align-items: center; /* Center its children vertically */
+    flex-wrap: wrap; /* Allow items to wrap if they exceed width */
+    width: 100vw; /* Set width to 100% of viewport width */
+    padding: 34px 20px; /* Adjusted padding */
+    box-sizing: border-box;
+    background-color: rgba(73, 94, 87, 1);
+    overflow: hidden; /* Hide overflow content */
+    transform: scale(0.8); /* Adjust the scale value as needed */
+    height: 500px;
+    margin-top: -25vh;
+  }
+  @media (max-width: 991px) {
+    .group-455 {
+      margin-left: -14.5vw;
+      width: 125vw;
+    }
+  }
+  
+  /* Styling for text container */
+  .text-container {
+    flex: 1; /* Take remaining width */
+    padding-right: 20px; /* Add spacing between text and image */
+  }
+  
+  /* Styling for text */
+  .little-lemon {
+    margin-top: -450px;
+    color: rgba(244, 206, 20, 1);
+    font-size: 64px;
+    line-height: 64px;
+    font-family: Markazi Text, serif;
+    font-weight: 700;
+    text-align: center; /* Center text */
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+  }
+@media (max-width: 991px) {
+  .little-lemon {
+    margin-top: -44vh;
+  }
+}  
+  .toronto {
+    color: rgba(237, 239, 238, 1);
+    font-size: 30px;
+    line-height: 30px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    margin-bottom: 25px; /* Add margin bottom for spacing */
+    text-align: center; /* Center text */
+  }
+  
+  .owners-mario-right-adri {
+    color: rgba(237, 239, 238, 1);
+    font-size: 22px;
+    line-height: 35px;
+    font-family: Karla, sans-serif;
+    font-weight: 700;
+    text-align: center; /* Center text */
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+  }
+
+  @media (max-width: 991px) {
+
+    .mario-and-adrian-a-1 {
+      position: relative;
+      height: 100px;
+      width: 200px;
+      top: 200%;
+    }
+    .little-lemon {
+      margin-top: 10px; /* Adjusted margin */
+      font-size: 40px; /* Adjusted font size */
+      line-height: 40px; /* Adjusted line height */
+    }
+  
+    .toronto {
+      margin-top: 20px; /* Adjusted margin */
+      font-size: 24px; /* Adjusted font size */
+      line-height: 24px; /* Adjusted line height */
+    }
+  
+    .owners-mario-right-adri {
+      margin-top: 20px; /* Adjusted margin */
+      font-size: 18px; /* Adjusted font size */
+      line-height: 28px; /* Adjusted line height */
+    }
+  
+    .group-455 {
+      padding: 20px; /* Adjusted padding */
+      margin-top: 0; /* Remove negative margin */
+      margin-right: 200px;
+      width: display; 
+      display: flex;
+      flex-direction: column; /* Change to column layout */
+      align-items: center; /* Center horizontally */
+    }
+  
+    .text-container {
+      padding: 0; /* Reset padding */
+      margin-bottom: 20px; /* Add margin bottom for spacing */
+    }
+  
+    .image-container {
+      order: 2; /* Change order */
+    }
+  
+    .toronto {
+      order: 1; /* Change order */
+    }
+  
+    .owners-mario-right-adri {
+      order: 3; /* Change order */
+    }
+  
+    .little-lemon {
+      order: 0; /* Change order */
+      margin-bottom: 20px; /* Add margin bottom for spacing */
+    }
+
+   
+  }
+  
+  
+  /* Styling for image container */
+  .image-container {
+    flex: 1; /* Take remaining width */
+    display: flex; /* Make it flex container */
+    justify-content: center; /* Center its children horizontally */
+    align-items: center; /* Center its children vertically */
+  }
+  
+  /* Styling for the image */
+  .mario-and-adrian-a-1 {
+    max-width: 100%; /* Ensure image doesn't overflow its container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100%; /* Ensure image doesn't exceed container height */
+  }
+  
